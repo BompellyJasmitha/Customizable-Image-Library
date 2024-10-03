@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#homeDiv{
+    width:100%;
+    max-height:500vh;
+    padding:10px;
+    background:radial-gradient(rgba(68, 68, 68, 0.279),rgba(87, 84, 84, 0.586),rgba(29, 19, 19, 0.692),rgb(11, 10, 10),rgba(20, 1, 1, 0.97)),
+    url("https://img.pikbest.com/wp/202345/red-white-black-background-and-amaryllis-on-a_9598255.jpg!bw700")no-repeat center/cover;
+    position: relative;
+    display: flex;
+
+
+}
+#navDiv{
+    width:500px;
+    height:97vh;
+    border-radius: 10px;
+    border:1px solid antiquewhite;
+    box-shadow: 1px 1px 5px rgb(225, 196, 142);
+    color: antiquewhite;
+    position: fixed;
+}
+
+/* icons----------->> */
+#navDiv i{
+    font-size: 25px;
+}
+#user{
+    position: relative;
+    left:380px;
+    top:15px
+}
+#login{
+    position: relative;
+    left:410px;
+    top:16px
+
+}
+.fa-brands{
+    position: relative;
+    top:350px;
+    margin:15px;
+    
+}
+
+
+/* dummydiv---------> */
+
+#dummyDiv{
+    width:500px;
+    height:97vh;
+}
+
+/* navDiv-------------->>>> */
+
+#navDiv h1{
+    position: relative;
+    top:120px;
+    left:110px;
+    font-size: 60px;
+}
+#navDiv p{
+    position: relative;
+    width:450px;
+    top:160px;
+    left:20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#navDiv input{
+    width:450px;
+    height:60px;
+    border-radius: 10px;
+    font-size: 18px;
+    position:relative;
+    top:190px;
+    left:20px;
+    border: none;
+    background-color: rgba(66, 62, 62, 0.741);
+    box-shadow: 1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+    color:antiquewhite;
+    padding:10px 20px;
+}
+
+#navDiv input:hover{
+    outline: 3px solid antiquewhite;
+}
+
+/* images-------->>>>> */
+
+#imageDiv{
+    width:1000px;
+    max-height:500vh;
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+   
+}
+
+#imageDiv img{
+    max-width: 30%;
+    max-height: 40%;
+    box-shadow: 1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+    margin:10px;
+}
+

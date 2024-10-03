@@ -1,0 +1,79 @@
+#DummyDiv{
+    width:100%;
+    height:100vh;
+    padding:10px;
+    background:radial-gradient(rgba(68, 68, 68, 0.279),rgba(87, 84, 84, 0.586),rgba(29, 19, 19, 0.692),rgb(11, 10, 10),rgba(20, 1, 1, 0.97)),
+    url("https://img.pikbest.com/wp/202345/red-white-black-background-and-amaryllis-on-a_9598255.jpg!bw700")no-repeat center/cover;
+    filter: blur(4px);
+    background-image: transparent;
+    position: fixed;
+    z-index: -1;
+}
+
+#loginDiv{
+    width:500px;
+    height:600px;
+    box-shadow:1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+    border-radius:10px;
+    position: relative;
+    top:60px;
+    left:500px;
+    background-color: rgba(33, 32, 32, 0.756);
+}
+
+#loginDiv h1{
+    color:antiquewhite;
+    position:relative;
+    top:100px;
+    left:160px;
+}
+#loginDiv hr{
+    width:270px;
+    position:relative;
+    top:120px;
+    left:100px;
+}
+#loginDiv p{
+    color:antiquewhite;
+    font-size: 18px;
+    position:relative;
+    top:180px;
+    left:180px;
+}
+#loginDiv p:hover{
+    transition-duration:0.5ms;
+    font-size: 20px;
+}
+
+#loginDiv input{
+    width:450px;
+    height:60px;
+    padding:10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    position:relative;
+    top:150px;
+    left:25px;
+    margin:10px 0px;
+    background-color: antiquewhite;
+}
+
+#loginDiv input[type="submit"]{
+    width:250px;
+    height:50px;
+    border-radius: 30px;
+    position:relative;
+    font-weight: bolder;
+    left:120px;
+    font-size: 18px;
+    background-color:  black;
+    color: antiquewhite;
+    box-shadow: 1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+}
+
+#loginDiv input[type="submit"]:hover{
+    background-color: antiquewhite;
+    outline:2px solid black;
+    color: black;
+}
