@@ -5,6 +5,5 @@ import App from "./App.jsx"
 
 let ele=createRoot(document.getElementById("root"))
 ele.render(<>
-        
           <App/>
-        </>)
+          </>)

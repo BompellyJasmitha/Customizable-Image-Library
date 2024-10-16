@@ -111,3 +111,29 @@
     margin:10px;
 }
 
+/* imagesPage */
+#imagesdiv{
+    width:700px;
+    height: 100vh;
+    border: none;
+    color: antiquewhite;
+    font-size: 40px;
+    background-color: rgba(66, 62, 62, 0.741);
+    box-shadow: 1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+    position: fixed;
+    padding: 100px 30px;
+}
+
+#categorieimagesdiv2{
+    width:50%;
+    height: 80vh;
+    float: right;
+   display: flex;
+   justify-content: center;
+   
+}
+#images{
+
+        box-shadow: 1px 1px 3px antiquewhite,-1px -1px 3px antiquewhite;
+        
+}

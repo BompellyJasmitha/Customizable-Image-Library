@@ -24,8 +24,8 @@ export default function Home(){
     let navigate=useNavigate()
     let logout=()=>{navigate("/")}
 
-    // console.log(search)
-
+    // console.log(useNavigate())
+    
     return(<>
 
         <div id="homeDiv" >
@@ -51,7 +51,7 @@ export default function Home(){
                  {
                      api.map((x,a)=>
                          {return(
-                         <img key={a} src={x.webformatURL}  ></img>
+                         <img key={a} onClick={()=>navigate("/Imagepage",{state:{x,api}})} src={x.webformatURL}  ></img>
                          )})
                  }
             </div>
